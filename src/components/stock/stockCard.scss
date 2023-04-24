@@ -1,0 +1,26 @@
+.stock__card {
+    height: 320px;
+    display: flex;
+    align-items: end;
+    max-width: 300px;
+    background-image: url('./img/stock_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    transition: .1s all ease-in-out;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(105%);
+    }
+
+    &-text{
+        max-width: 240px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+    }
+}

@@ -1,0 +1,47 @@
+.cards{
+    padding-top: 30px;
+    background-color: #F9F9F9;
+}
+
+.cards__inner {
+    &-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+        color: #191919;
+    }
+
+    &-filter--btn {
+        background-color: #fff;
+        border: 1px solid #F0F0F0;
+        border-radius: 6px;
+        padding: 9px 16px;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 22px;
+        cursor: pointer;
+
+        & img{
+            margin-right: 8px;
+        }
+
+        &:hover{
+            background-color: #F0F0F0;
+            border: 1px solid #b8b8b8;
+        }
+    }
+
+    &-cards{
+        margin-top: 32px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 300px);
+        justify-content: space-between;
+    }
+}

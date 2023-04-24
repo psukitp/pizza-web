@@ -1,0 +1,18 @@
+.selection__card{
+    padding: 20px 39px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px #F0F0F0 solid;
+    border-radius: 12px;
+    max-width: 135px;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+
+    &:hover{
+        transform: scale(105%);
+    }
+
+    & img{
+        margin-bottom: 8px;
+    }
+}
